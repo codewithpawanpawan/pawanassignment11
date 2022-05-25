@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: cadetblue;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>ul{
+    display: flex;
+    
+}
+.navbar>ul>li{
+    list-style: none;
+    padding: 5px;
+    margin-right: 55px;
+    color: white;
+}
+.heading>h1{
+    background-color: white;
+    margin: 8px;
+    border-radius: 5px;
+}
+/* ################## main ##################### */
+.textlist{
+    background-color: aquamarine;
+    border: solid 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* ########################### FOOTER ############################## */
+footer{
+    background-color:cadetblue;
+    padding: 5px;
+    margin-top: 8px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.nav>ul{
+    display: flex;
+}
+.nav>ul>li{
+    padding: 5px;
+    list-style: none;
+}
